@@ -1,6 +1,6 @@
 {
   "name": "is-stream-ended",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Check if a stream has ended",
   "main": "index.js",
   "dependencies": {},
