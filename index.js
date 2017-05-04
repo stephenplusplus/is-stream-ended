@@ -7,8 +7,6 @@ function isDefined(val) {
 module.exports = function (stream) {
   var ended;
 
-  console.log(stream)
-
   if (isDefined(stream.ended)) {
     ended = stream.ended;
   } else if (isDefined(stream._ended)) {
