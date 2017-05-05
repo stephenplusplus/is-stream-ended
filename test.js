@@ -17,10 +17,8 @@ describe('is-stream-ended', function () {
   it('should work with a provided state', function () {
     var stream = through();
     assert.strictEqual(isStreamEnded(stream._writableState), false);
-    assert.strictEqual(isStreamEnded(stream._readableState), false);
 
     stream.end();
     assert.strictEqual(isStreamEnded(stream._writableState), true);
-    assert.strictEqual(isStreamEnded(stream._readableState), true);
   });
 });
